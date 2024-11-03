@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #007bff;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Estilo para el botón de Modificar */
+button.modificar-btn {
+    background-color: #90EE90; /* Verde claro */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Efecto de transición para agrandar */
+}
+
+button.modificar-btn:hover {
+    transform: scale(1.05); /* Agrandamiento leve */
+}
+
+/* Estilo para el botón de Eliminar */
+button.eliminar-btn {
+    background-color: #FF6347; /* Rojo tomate */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Efecto de transición para agrandar */
+}
+
+button.eliminar-btn:hover {
+    transform: scale(1.05); /* Agrandamiento leve */
+}
